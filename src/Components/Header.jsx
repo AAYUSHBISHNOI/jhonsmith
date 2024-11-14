@@ -1,14 +1,12 @@
-import React from 'react'
-import { Container } from 'react-bootstrap'
+import React from "react";
+import { Container } from "react-bootstrap";
 
 const Header = () => {
   return (
     <div>
-      <Container>
-        <h1>Siddharth </h1>
-      </Container>
+      <h1>siddharth</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
