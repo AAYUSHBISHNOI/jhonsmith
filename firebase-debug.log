@@ -142,3 +142,208 @@ You're about to initialize a Firebase project in this directory:
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2024-11-14T10:59:25.608Z] ----------------------------------------------------------------------
+[debug] [2024-11-14T10:59:25.612Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aayush\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-14T10:59:25.613Z] CLI Version:   13.25.0
+[debug] [2024-11-14T10:59:25.613Z] Platform:      win32
+[debug] [2024-11-14T10:59:25.613Z] Node Version:  v23.2.0
+[debug] [2024-11-14T10:59:25.614Z] Time:          Thu Nov 14 2024 16:29:25 GMT+0530 (India Standard Time)
+[debug] [2024-11-14T10:59:25.614Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-14T10:59:25.623Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-14T10:59:25.624Z] > authorizing via signed-in user (aayushkaswan79@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\jhonsmith
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-11-14T11:00:38.230Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:38.230Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:38.232Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-11-14T11:00:38.232Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"jason-t-smith","name":"jason-t-smith"}
+[debug] [2024-11-14T11:00:40.284Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-11-14T11:00:40.285Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.5527530931590543434"}
+[debug] [2024-11-14T11:00:40.287Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:40.287Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:40.287Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5527530931590543434 [none]
+[debug] [2024-11-14T11:00:41.917Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5527530931590543434 200
+[debug] [2024-11-14T11:00:41.917Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5527530931590543434 {"name":"operations/cp.5527530931590543434"}
+[debug] [2024-11-14T11:00:42.421Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-11-14T11:00:42.421Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:42.421Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:42.421Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5527530931590543434 [none]
+[debug] [2024-11-14T11:00:42.995Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5527530931590543434 200
+[debug] [2024-11-14T11:00:42.995Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5527530931590543434 {"name":"operations/cp.5527530931590543434","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2024-11-14T11:00:44.005Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-11-14T11:00:44.006Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:44.006Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:44.006Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5527530931590543434 [none]
+[debug] [2024-11-14T11:00:44.616Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5527530931590543434 200
+[debug] [2024-11-14T11:00:44.616Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5527530931590543434 {"name":"operations/cp.5527530931590543434","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"803502687822","projectId":"jason-t-smith","lifecycleState":"ACTIVE","name":"jason-t-smith","createTime":"2024-11-14T11:00:41.802580Z"}}
+[debug] [2024-11-14T11:00:44.618Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:44.618Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:44.619Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/jason-t-smith:addFirebase [none]
+[debug] [2024-11-14T11:00:48.323Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/jason-t-smith:addFirebase 200
+[debug] [2024-11-14T11:00:48.323Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/jason-t-smith:addFirebase {"name":"operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl"}
+[debug] [2024-11-14T11:00:48.324Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:48.324Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:48.324Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl [none]
+[debug] [2024-11-14T11:00:53.494Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl 200
+[debug] [2024-11-14T11:00:53.494Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl {"name":"operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl"}
+[debug] [2024-11-14T11:00:53.994Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-11-14T11:00:53.995Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:53.995Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:53.995Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl [none]
+[debug] [2024-11-14T11:00:55.303Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl 200
+[debug] [2024-11-14T11:00:55.304Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl {"name":"operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl"}
+[debug] [2024-11-14T11:00:56.311Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-11-14T11:00:56.312Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:56.312Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:56.312Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl [none]
+[debug] [2024-11-14T11:00:57.143Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl 200
+[debug] [2024-11-14T11:00:57.143Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl {"name":"operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl"}
+[debug] [2024-11-14T11:00:59.145Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-11-14T11:00:59.146Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:59.146Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:00:59.146Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl [none]
+[debug] [2024-11-14T11:01:00.251Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl 200
+[debug] [2024-11-14T11:01:00.251Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl {"name":"operations/workflows/YmIzYzJiNmItOWNlMS00ZDQ1LWJlYjEtODU2Mjg5MzZlZGZl","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"jason-t-smith","projectNumber":"803502687822","displayName":"jason-t-smith","name":"projects/jason-t-smith","resources":{"hostingSite":"jason-t-smith"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: jason-t-smith
+[info]    - Project Name: jason-t-smith
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/jason-t-smith/overview
+[info] i  Using project jason-t-smith (jason-t-smith) 
+[info] 
+=== Hosting Setup
+[debug] [2024-11-14T11:01:00.259Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:01:00.259Z] Checked if tokens are valid: true, expires at: 1731584780700
+[debug] [2024-11-14T11:01:00.259Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jason-t-smith [none]
+[debug] [2024-11-14T11:01:01.261Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jason-t-smith 200
+[debug] [2024-11-14T11:01:01.262Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jason-t-smith {"projectId":"jason-t-smith","projectNumber":"803502687822","displayName":"jason-t-smith","name":"projects/jason-t-smith","resources":{"hostingSite":"jason-t-smith"},"state":"ACTIVE","etag":"1_15d356bf-2750-4266-b7c7-48694bec3da0"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote Y/404.html 
+[debug] [2024-11-14T11:01:21.654Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-11-14T11:01:21.781Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-11-14T11:01:21.781Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.0.1","browserURL":"https://www.gstatic.com/firebasejs/11.0.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.0.1/firebase.tgz"},"live":{"version":"11.0","browserURL":"https://www.gstatic.com/firebasejs/live/11.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.0/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.0.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.0.1/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.0.1/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.0.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.0.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.0.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.0.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.0.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.0.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.0.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.0.1/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.0.1/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.memory.js"}}
+[info] +  Wrote Y/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\jhonsmith 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=677216955&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-11-14T11:01:22.676Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-11-14T11:01:22.676Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-11-14T11:01:23.103Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-11-14T11:01:23.103Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-11-14T11:01:23.111Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-11-14T11:01:23.630Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-11-14T11:01:23.630Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"AAYUSHBISHNOI","id":135202489,"node_id":"U_kgDOCA8GuQ","avatar_url":"https://avatars.githubusercontent.com/u/135202489?v=4","gravatar_id":"","url":"https://api.github.com/users/AAYUSHBISHNOI","html_url":"https://github.com/AAYUSHBISHNOI","followers_url":"https://api.github.com/users/AAYUSHBISHNOI/followers","following_url":"https://api.github.com/users/AAYUSHBISHNOI/following{/other_user}","gists_url":"https://api.github.com/users/AAYUSHBISHNOI/gists{/gist_id}","starred_url":"https://api.github.com/users/AAYUSHBISHNOI/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AAYUSHBISHNOI/subscriptions","organizations_url":"https://api.github.com/users/AAYUSHBISHNOI/orgs","repos_url":"https://api.github.com/users/AAYUSHBISHNOI/repos","events_url":"https://api.github.com/users/AAYUSHBISHNOI/events{/privacy}","received_events_url":"https://api.github.com/users/AAYUSHBISHNOI/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":25,"public_gists":0,"followers":0,"following":0,"created_at":"2023-06-01T06:06:24Z","updated_at":"2024-08-30T12:38:50Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":250861,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as AAYUSHBISHNOI 
+[info] 
+[debug] [2024-11-14T11:01:30.993Z] >>> [apiv2][query] GET https://api.github.com/repos/./actions/secrets/public-key type=owner
+[debug] [2024-11-14T11:01:31.362Z] <<< [apiv2][status] GET https://api.github.com/repos/./actions/secrets/public-key 404
+[debug] [2024-11-14T11:01:31.362Z] <<< [apiv2][body] GET https://api.github.com/repos/./actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-14T11:01:50.649Z] >>> [apiv2][query] GET https://api.github.com/repos/.https://github.com/AAYUSHBISHNOI/jhonsmith.git/actions/secrets/public-key type=owner
+[debug] [2024-11-14T11:01:51.016Z] <<< [apiv2][status] GET https://api.github.com/repos/.https://github.com/AAYUSHBISHNOI/jhonsmith.git/actions/secrets/public-key 404
+[debug] [2024-11-14T11:01:51.016Z] <<< [apiv2][body] GET https://api.github.com/repos/.https://github.com/AAYUSHBISHNOI/jhonsmith.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-14T11:02:02.136Z] >>> [apiv2][query] GET https://api.github.com/repos/https://github.com/AAYUSHBISHNOI/jhonsmith.git/actions/secrets/public-key type=owner
+[debug] [2024-11-14T11:02:02.558Z] <<< [apiv2][status] GET https://api.github.com/repos/https://github.com/AAYUSHBISHNOI/jhonsmith.git/actions/secrets/public-key 404
+[debug] [2024-11-14T11:02:02.558Z] <<< [apiv2][body] GET https://api.github.com/repos/https://github.com/AAYUSHBISHNOI/jhonsmith.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-14T11:02:27.392Z] >>> [apiv2][query] GET https://api.github.com/repos/https://github.com/AAYUSHBISHNOI/jhonsmith.git/actions/secrets/public-key type=owner
+[debug] [2024-11-14T11:02:27.866Z] <<< [apiv2][status] GET https://api.github.com/repos/https://github.com/AAYUSHBISHNOI/jhonsmith.git/actions/secrets/public-key 404
+[debug] [2024-11-14T11:02:27.866Z] <<< [apiv2][body] GET https://api.github.com/repos/https://github.com/AAYUSHBISHNOI/jhonsmith.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-14T11:03:07.520Z] >>> [apiv2][query] GET https://api.github.com/repos///actions/secrets/public-key type=owner
+[debug] [2024-11-14T11:03:07.881Z] <<< [apiv2][status] GET https://api.github.com/repos///actions/secrets/public-key 404
+[debug] [2024-11-14T11:03:07.881Z] <<< [apiv2][body] GET https://api.github.com/repos///actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-14T11:03:10.960Z] >>> [apiv2][query] GET https://api.github.com/repos////actions/secrets/public-key type=owner
+[debug] [2024-11-14T11:03:11.233Z] <<< [apiv2][status] GET https://api.github.com/repos////actions/secrets/public-key 404
+[debug] [2024-11-14T11:03:11.233Z] <<< [apiv2][body] GET https://api.github.com/repos////actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-14T11:03:16.936Z] >>> [apiv2][query] GET https://api.github.com/repos///actions/secrets/public-key type=owner
+[debug] [2024-11-14T11:03:17.355Z] <<< [apiv2][status] GET https://api.github.com/repos///actions/secrets/public-key 404
+[debug] [2024-11-14T11:03:17.355Z] <<< [apiv2][body] GET https://api.github.com/repos///actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-14T11:03:19.215Z] >>> [apiv2][query] GET https://api.github.com/repos/./actions/secrets/public-key type=owner
+[debug] [2024-11-14T11:03:19.533Z] <<< [apiv2][status] GET https://api.github.com/repos/./actions/secrets/public-key 404
+[debug] [2024-11-14T11:03:19.533Z] <<< [apiv2][body] GET https://api.github.com/repos/./actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
